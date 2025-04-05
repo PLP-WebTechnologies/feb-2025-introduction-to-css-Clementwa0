@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+}
+
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #072c02;
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li {
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+}
+
+ul li a:hover {
+    color: #d1e708;
+}
+
+.about {
+    display: grid;
+    height: 100vh;
+    background-color: beige;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.about-text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.about-text h1 {
+    font-family: 'Lilita one', cursive;
+}
+
+.about-text .btn {
+    background: #dfcb19;
+    color: #000000;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.about-text .btn:hover {
+    background: #072c02;
+    color: #fff;
+}
+
+.about-image {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.about-image img {
+    width: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #143a02;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+.footer .footer-contact {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.footer .footer-links {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.footer .footer-links h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer  a {
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.footer a:hover {
+    color: #d1e708;
+}
+
+.footer .footer-social {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
